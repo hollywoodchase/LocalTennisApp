@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3069533D2C65974B0093F043 /* LocalTennisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069533C2C65974B0093F043 /* LocalTennisApp.swift */; };
+		3069533F2C65974B0093F043 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069533E2C65974B0093F043 /* ContentView.swift */; };
+		306953412C65974C0093F043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306953402C65974C0093F043 /* Assets.xcassets */; };
+		306953452C65974C0093F043 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306953442C65974C0093F043 /* Preview Assets.xcassets */; };
+		3069534F2C65974C0093F043 /* LocalTennisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069534E2C65974C0093F043 /* LocalTennisTests.swift */; };
+		306953592C65974C0093F043 /* LocalTennisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306953582C65974C0093F043 /* LocalTennisUITests.swift */; };
+		3069535B2C65974C0093F043 /* LocalTennisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069535A2C65974C0093F043 /* LocalTennisUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3069534B2C65974C0093F043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306953312C65974B0093F043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306953382C65974B0093F043;
+			remoteInfo = LocalTennis;
+		};
+		306953552C65974C0093F043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306953312C65974B0093F043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306953382C65974B0093F043;
+			remoteInfo = LocalTennis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		306953392C65974B0093F043 /* LocalTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3069533C2C65974B0093F043 /* LocalTennisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTennisApp.swift; sourceTree = "<group>"; };
+		3069533E2C65974B0093F043 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		306953402C65974C0093F043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306953422C65974C0093F043 /* LocalTennis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocalTennis.entitlements; sourceTree = "<group>"; };
+		306953442C65974C0093F043 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3069534A2C65974C0093F043 /* LocalTennisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalTennisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3069534E2C65974C0093F043 /* LocalTennisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTennisTests.swift; sourceTree = "<group>"; };
+		306953542C65974C0093F043 /* LocalTennisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalTennisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		306953582C65974C0093F043 /* LocalTennisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTennisUITests.swift; sourceTree = "<group>"; };
+		3069535A2C65974C0093F043 /* LocalTennisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTennisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48B9A80E9F8A34E3189DBE2E /* Pods_LocalTennis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalTennis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306953362C65974B0093F043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306953472C65974C0093F043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306953512C65974C0093F043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306953302C65974B0093F043 = {
+			isa = PBXGroup;
+			children = (
+				3069533B2C65974B0093F043 /* LocalTennis */,
+				3069534D2C65974C0093F043 /* LocalTennisTests */,
+				306953572C65974C0093F043 /* LocalTennisUITests */,
+				3069533A2C65974B0093F043 /* Products */,
+				B859B9C1F905D13E40BAC746 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3069533A2C65974B0093F043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306953392C65974B0093F043 /* LocalTennis.app */,
+				3069534A2C65974C0093F043 /* LocalTennisTests.xctest */,
+				306953542C65974C0093F043 /* LocalTennisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3069533B2C65974B0093F043 /* LocalTennis */ = {
+			isa = PBXGroup;
+			children = (
+				3069533C2C65974B0093F043 /* LocalTennisApp.swift */,
+				3069533E2C65974B0093F043 /* ContentView.swift */,
+				306953402C65974C0093F043 /* Assets.xcassets */,
+				306953422C65974C0093F043 /* LocalTennis.entitlements */,
+				306953432C65974C0093F043 /* Preview Content */,
+			);
+			path = LocalTennis;
+			sourceTree = "<group>";
+		};
+		306953432C65974C0093F043 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				306953442C65974C0093F043 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3069534D2C65974C0093F043 /* LocalTennisTests */ = {
+			isa = PBXGroup;
+			children = (
+				3069534E2C65974C0093F043 /* LocalTennisTests.swift */,
+			);
+			path = LocalTennisTests;
+			sourceTree = "<group>";
+		};
+		306953572C65974C0093F043 /* LocalTennisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				306953582C65974C0093F043 /* LocalTennisUITests.swift */,
+				3069535A2C65974C0093F043 /* LocalTennisUITestsLaunchTests.swift */,
+			);
+			path = LocalTennisUITests;
+			sourceTree = "<group>";
+		};
+		B859B9C1F905D13E40BAC746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B9A80E9F8A34E3189DBE2E /* Pods_LocalTennis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306953382C65974B0093F043 /* LocalTennis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3069535E2C65974C0093F043 /* Build configuration list for PBXNativeTarget "LocalTennis" */;
+			buildPhases = (
+				D062C54F95E6B7C15E45C02A /* [CP] Check Pods Manifest.lock */,
+				306953352C65974B0093F043 /* Sources */,
+				306953362C65974B0093F043 /* Frameworks */,
+				306953372C65974B0093F043 /* Resources */,
+				0E3E5247B117CA8F760379C2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalTennis;
+			productName = LocalTennis;
+			productReference = 306953392C65974B0093F043 /* LocalTennis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306953492C65974C0093F043 /* LocalTennisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306953612C65974C0093F043 /* Build configuration list for PBXNativeTarget "LocalTennisTests" */;
+			buildPhases = (
+				306953462C65974C0093F043 /* Sources */,
+				306953472C65974C0093F043 /* Frameworks */,
+				306953482C65974C0093F043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3069534C2C65974C0093F043 /* PBXTargetDependency */,
+			);
+			name = LocalTennisTests;
+			productName = LocalTennisTests;
+			productReference = 3069534A2C65974C0093F043 /* LocalTennisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		306953532C65974C0093F043 /* LocalTennisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306953642C65974C0093F043 /* Build configuration list for PBXNativeTarget "LocalTennisUITests" */;
+			buildPhases = (
+				306953502C65974C0093F043 /* Sources */,
+				306953512C65974C0093F043 /* Frameworks */,
+				306953522C65974C0093F043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306953562C65974C0093F043 /* PBXTargetDependency */,
+			);
+			name = LocalTennisUITests;
+			productName = LocalTennisUITests;
+			productReference = 306953542C65974C0093F043 /* LocalTennisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306953312C65974B0093F043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					306953382C65974B0093F043 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					306953492C65974C0093F043 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 306953382C65974B0093F043;
+					};
+					306953532C65974C0093F043 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 306953382C65974B0093F043;
+					};
+				};
+			};
+			buildConfigurationList = 306953342C65974B0093F043 /* Build configuration list for PBXProject "LocalTennis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306953302C65974B0093F043;
+			packageReferences = (
+				306B596A2C67D458006DCBA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3069533A2C65974B0093F043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306953382C65974B0093F043 /* LocalTennis */,
+				306953492C65974C0093F043 /* LocalTennisTests */,
+				306953532C65974C0093F043 /* LocalTennisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306953372C65974B0093F043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306953452C65974C0093F043 /* Preview Assets.xcassets in Resources */,
+				306953412C65974C0093F043 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306953482C65974C0093F043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306953522C65974C0093F043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E3E5247B117CA8F760379C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalTennis/Pods-LocalTennis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalTennis/Pods-LocalTennis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocalTennis/Pods-LocalTennis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D062C54F95E6B7C15E45C02A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalTennis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306953352C65974B0093F043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3069533F2C65974B0093F043 /* ContentView.swift in Sources */,
+				3069533D2C65974B0093F043 /* LocalTennisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306953462C65974C0093F043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3069534F2C65974C0093F043 /* LocalTennisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306953502C65974C0093F043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306953592C65974C0093F043 /* LocalTennisUITests.swift in Sources */,
+				3069535B2C65974C0093F043 /* LocalTennisUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3069534C2C65974C0093F043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306953382C65974B0093F043 /* LocalTennis */;
+			targetProxy = 3069534B2C65974C0093F043 /* PBXContainerItemProxy */;
+		};
+		306953562C65974C0093F043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306953382C65974B0093F043 /* LocalTennis */;
+			targetProxy = 306953552C65974C0093F043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3069535C2C65974C0093F043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3069535D2C65974C0093F043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3069535F2C65974C0093F043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LocalTennis/LocalTennis.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LocalTennis/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CL8ARSFB3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DannyCalise.LocalTennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		306953602C65974C0093F043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LocalTennis/LocalTennis.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LocalTennis/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CL8ARSFB3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DannyCalise.LocalTennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		306953622C65974C0093F043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CL8ARSFB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"`-ObjC`",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DannyCalise.LocalTennisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalTennis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalTennis";
+			};
+			name = Debug;
+		};
+		306953632C65974C0093F043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CL8ARSFB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"`-ObjC`",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DannyCalise.LocalTennisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalTennis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalTennis";
+			};
+			name = Release;
+		};
+		306953652C65974C0093F043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CL8ARSFB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DannyCalise.LocalTennisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocalTennis;
+			};
+			name = Debug;
+		};
+		306953662C65974C0093F043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CL8ARSFB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DannyCalise.LocalTennisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocalTennis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306953342C65974B0093F043 /* Build configuration list for PBXProject "LocalTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3069535C2C65974C0093F043 /* Debug */,
+				3069535D2C65974C0093F043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3069535E2C65974C0093F043 /* Build configuration list for PBXNativeTarget "LocalTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3069535F2C65974C0093F043 /* Debug */,
+				306953602C65974C0093F043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306953612C65974C0093F043 /* Build configuration list for PBXNativeTarget "LocalTennisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306953622C65974C0093F043 /* Debug */,
+				306953632C65974C0093F043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306953642C65974C0093F043 /* Build configuration list for PBXNativeTarget "LocalTennisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306953652C65974C0093F043 /* Debug */,
+				306953662C65974C0093F043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		306B596A2C67D458006DCBA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 306953312C65974B0093F043 /* Project object */;
+}
